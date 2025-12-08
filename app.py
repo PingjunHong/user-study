@@ -5,9 +5,9 @@ import os
 app = Flask(__name__)
 
 # Input counterfactuals
-TRIAL_FILE = "/Users/pingjunhong/Desktop/UW/pragma/user_study/gpt-4/cot/gpt-3.5_cfq_clean.jsonl"
+TRIAL_FILE = "Path/to/your/trials/user_study_trials.jsonl"
 # Output responses
-RESULT_FILE = "/Users/pingjunhong/Desktop/UW/pragma/user_study/user_study_responses_gpt-4-cot-gpt-3.5.jsonl"
+RESULT_FILE = "Path/to/your/results/user_study_results.jsonl"
 
 # Load all trials into memory
 TRIALS = []
